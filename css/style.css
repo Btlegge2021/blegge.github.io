@@ -15,6 +15,16 @@
     color:#FFF;
     background-color: #74d14c;
 }
+.navbar-brand {
+    font-family: agency fb, corbel, helvetica, sans-serif;
+    font-size: 38px;
+}
+.navbar-default .navbar-brand{
+    color: white;
+}
+ #intoText {
+       padding: 350px;
+}
 #lab1,#lab2{
     height:600px;
     margin-left: auto;
@@ -53,4 +63,14 @@ header .intro-text .skills {
 }
 body {
     padding-top:69px;
+}
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active,
+.navbar-brand.active {
+  color: white;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: fantasy;
+    font-weight: 700;
 }
