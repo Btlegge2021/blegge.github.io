@@ -48,7 +48,7 @@
 header {
     text-align: center;
     background: black;
-    color: #74d14c;
+    color: white;
 }
 header img{
     margin: 0 auto 20px;
@@ -74,6 +74,32 @@ body {
     font-family: fantasy;
     font-weight: 700;
 }
-.t {
+a.btn.btn-lg.btn-outline {
+    border: solid 2px black;
+    transition: all .1s ease-in-out;
+}
+.fa-linkedin, .fa-envelope-open {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: white;
+    font-size: 4rem;
+
+}
+.fa-linkedin:hover,.fa-envelope-open:hover {
+    background-color: skyblue;
+}
+.footer-above {
+    background-color: #74d14c;
+}
+img.img-responsive {
+    padding-left: 150px;
+    height: 150px;
+}
+t{
     font-weight: 600;
+    font-family: fantasy
 }
